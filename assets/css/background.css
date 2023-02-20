@@ -1,0 +1,24 @@
+:root {
+	--background-color-grey: #999;
+	--background-color-black: rgb(20, 20, 20);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#playArea {
+	background: var(--background-color-black);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
